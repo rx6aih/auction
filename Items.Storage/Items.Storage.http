@@ -1,0 +1,6 @@
+@Items.Storage_HostAddress = http://localhost:5289
+
+GET {{Items.Storage_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

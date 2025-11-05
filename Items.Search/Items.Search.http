@@ -1,0 +1,6 @@
+@Items.Search_HostAddress = http://localhost:5172
+
+GET {{Items.Search_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
