@@ -1,0 +1,16 @@
+﻿services:
+  postgres:
+    container_name: items-api
+    image: postgres
+    environment:
+      POSTGRES_DB: items-api
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5438:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+  
+volumes:
+  postgres-data:

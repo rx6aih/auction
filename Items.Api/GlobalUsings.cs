@@ -1,0 +1,9 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Items.Api.Domain.Enums;
+global using Items.Api.Domain.Entities;
+global using Items.Api.Domain.Interfaces;
+global using Microsoft.EntityFrameworkCore;
+global using Items.Api.Infrastructure.Database;
+global using Items.Api.Configuration;
+global using Microsoft.AspNetCore.HttpLogging;
+global using Items.Api.Infrastructure.Services;
