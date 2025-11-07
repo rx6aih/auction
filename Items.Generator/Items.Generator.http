@@ -1,0 +1,6 @@
+@Items.Generator_HostAddress = http://localhost:5088
+
+GET {{Items.Generator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
